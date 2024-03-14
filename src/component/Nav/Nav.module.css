@@ -1,0 +1,73 @@
+
+
+.navContainer {
+    background-color: rgba(10, 25, 47, 0.85);
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'SF Mono', 'Fira Code', 'Fira Mono', 'Roboto Mono', monospace;
+}
+.hamburger{
+    display: none;
+  }
+.title {
+    font-size: 24px;
+    margin: 10px;
+    color: #3fa58b;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.navList {
+    list-style: none;
+    padding-right: 10%;
+   
+}
+
+.navList>li {
+    display: inline-block;
+    margin: 20px;
+   
+}
+
+.navList li:last-child {
+    margin-right: 0;
+}
+
+.navList li a {
+    text-decoration: none;
+    color: #d4d4d4;
+    font-weight: bold;
+    
+}
+
+.navList li a:hover {
+    color: #64ffda;
+}
+
+@media screen and (max-width: 653px) {
+   .navList{
+    display: none;
+   }
+   .show{
+    display: flex;
+    flex-direction: column;
+    
+   }
+   .show>li{
+    cursor: pointer;
+   }
+   .show>li:hover{
+    color: #64ffda;
+   }
+      .hamburger {
+        display: block;
+        background: none;
+        color: #d4d4d4;
+        border: none;
+        cursor: pointer;
+        font-size: 24px;
+        position: absolute;
+        top: 0;
+        right: 0;
+      }
+}

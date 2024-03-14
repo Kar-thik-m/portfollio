@@ -1,0 +1,48 @@
+.full{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(10, 25, 47, 0.85);
+    position: relative;
+}
+.button > a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: large;
+}
+
+button {
+    margin: 1rem;
+    padding: 10px 20px;
+}
+.button:hover > a {
+    color: orange;
+   
+}
+.content{
+    padding: 3rem;
+    color: aliceblue;
+}
+.content>div{
+    padding: 1rem;
+}
+.name{
+    font-size: xx-large;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.content>div:nth-child(2){
+    font-size: x-large;
+}
+.content>div:nth-child(3){
+    font-size: large;
+    width: 40%;
+    word-spacing: 10px;
+    letter-spacing: 1px;
+}
+@media screen and (max-width: 653px) {
+    .content>div:nth-child(3){
+        font-size: large;
+        width: 100%;
+      
+       
+    }
+}

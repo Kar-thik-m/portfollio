@@ -1,0 +1,101 @@
+.title{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: #95bbe4;
+}
+.title>div{
+    width: 20rem;
+   
+    border: 1px solid  #1c3c5f;;
+    align-self: center;
+    margin-left: 1rem;
+    
+}
+.full{
+    background-color: rgba(10, 25, 47, 0.85);
+    width: 100%;
+    padding: 3rem 0rem;
+}
+.skillname{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+    padding: 3rem;
+}
+.skillname>div {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    background-color: rgba(10, 25, 47, 0.85);
+    border-radius: 1rem;
+    color: aliceblue;
+  }
+  
+  .skillname>div:hover {
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5); 
+  }
+  .skillname>div:nth-child(1){
+    box-shadow: 8px 8px 8px rgb(240, 81, 24); 
+    transition: box-shadow 0.3s ease;
+  }
+  .skillname>div:nth-child(2){
+    box-shadow: 8px 8px 8px skyblue; 
+    transition: box-shadow 0.3s ease;
+  }
+  .skillname>div:nth-child(3){
+    box-shadow: 8px 8px 8px yellow; 
+    transition: box-shadow 0.3s ease;
+  }
+  .skillname>div:nth-child(4){
+    box-shadow: 8px 8px 8px skyblue; 
+    transition: box-shadow 0.3s ease;
+  }
+  .skillname>div:nth-child(5){
+    box-shadow: 8px 8px 8px rgb(38, 75, 38); 
+    transition: box-shadow 0.3s ease;
+  }
+  .skillname>div:nth-child(6){
+    box-shadow: 8px 8px 8px green; 
+    transition: box-shadow 0.3s ease;
+  }
+  .skillname>div:nth-child(7){
+    box-shadow: 8px 8px 8px rgb(78, 127, 160); 
+    transition: box-shadow 0.3s ease;
+  }
+  .skillname>div:nth-child(8){
+    box-shadow: 8px 8px 8px rgb(78, 82, 78); 
+    transition: box-shadow 0.3s ease;
+  }
+  .skillname>div:nth-child(9){
+    box-shadow: 8px 8px 8px rgb(255, 255, 255); 
+    transition: box-shadow 0.3s ease;
+  }
+  .skillname>div:nth-child(10){
+    box-shadow: 8px 8px 8px rgb(255, 255, 255); 
+    transition: box-shadow 0.3s ease;
+  }
+.skillname>div>span{
+    padding: 10px 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+img{
+    width: 7rem;
+}
+
+@media screen and (max-width: 653px) {
+  .title > div {
+    width: 50%;
+    max-width: 20rem;
+    margin-left: 0;
+}
+.title {
+    display: flex;
+    flex-direction: row;
+   
+    padding: 2rem 0rem;
+}
+}

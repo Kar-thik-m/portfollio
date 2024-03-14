@@ -1,0 +1,46 @@
+
+
+.foot {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+   gap: 2rem;
+    color: white;
+    padding: 3rem 0;
+  }
+  
+  .linkdin,
+  .email,
+  .phone,
+  .whatsapp,
+  .github {
+    display: flex;
+    align-items: center;
+  }
+  
+  .linkdin img,
+  .email img,
+  .phone img,
+  .whatsapp img,
+  .github img {
+   width: 3rem;
+    margin-right: 10px;
+  }
+  
+  .linkdin a,
+  .email a,
+  .whatsapp a,
+  .github a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .linkdin a:hover,
+  .email a:hover,
+  .whatsapp a:hover,
+  .github a:hover {
+    text-decoration: underline;
+  }
+  
+
