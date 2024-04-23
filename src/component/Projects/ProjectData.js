@@ -19,7 +19,7 @@ export const ProjectData = () => {
             Projectname: "MakeUp",
             use: "This project utilizes makeUP items and is built using the react.js, API handling.",
             tools: "React.js, node.js,mongodb,",
-            url: "https://660b8e6c1dcf637599a2cf8b--idyllic-horse-b59b7d.netlify.app/",
+            url: "https://elaborate-froyo-d63c3b.netlify.app/",
             code1:"https://github.com/Kar-thik-m/make-up",
             image: makeup,
         },
