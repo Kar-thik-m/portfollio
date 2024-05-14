@@ -19,7 +19,7 @@ const About = () => {
                         and web applications.
                     </span>
                 </div>
-                <button className={Abstyle.button} ><a href="https://drive.google.com/file/d/1mf5DibHZow8ahxsuJBgtrXW3tdSngphF/view?usp=sharing" target="_blank">Resume/cv</a></button>
+                <button className={Abstyle.button} ><a href="https://drive.google.com/file/d/1miSC0eRRirYXF39D41jQ2vMGSQbBGB33/view" target="_blank">Resume/cv</a></button>
             </div>
            
         </div>
