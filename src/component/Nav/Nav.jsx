@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import Navstyles from './Nav.module.css'; 
-import my from "../../assets/my.png"
+
 const Nav = () => {
     const [isOpen, setIsOpen] = useState(false);
 
@@ -11,7 +11,7 @@ const Nav = () => {
     return (
         <nav className={Navstyles.navContainer}>
             <div>
-               <img style={{width:"4rem"}} src={my}></img>
+              
              
             </div>
           
