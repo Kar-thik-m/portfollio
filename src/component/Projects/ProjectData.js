@@ -20,7 +20,7 @@ export const ProjectData = () => {
             Projectname: "ChatApp",
             use: "Users can send and receive messages instantly in real-time, enhancing communication efficiency.",
             tools: "React.js,Socket.IO ,express.js,mongodb database",
-            url: "https://graceful-praline-754d99.netlify.app/",
+            url: "https://prismatic-torte-1811cd.netlify.app/",
             code1: "https://github.com/Kar-thik-m/chat-frontend",
             code2: "https://github.com/Kar-thik-m/chat-backend",
             image: chatapp,
