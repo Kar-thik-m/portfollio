@@ -1,84 +1,216 @@
+.Projectcontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 30vh;
+    padding: 20px;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    margin-top: 10%;
+}
+
 .title {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
-    padding: 2rem 0rem;
+    color: #95bbe4;
 }
 
-.title > h1 {
-    color: aliceblue;
-    margin-bottom: 1rem;
+.title>div {
+    width: 20rem;
+
+    border: 1px solid #1c3c5f;
+    ;
+    align-self: center;
+    margin-left: 1rem;
+
 }
 
-.title > div {
-    width: 90%;
-    max-width: 20rem;
-    border: 1px solid #7c93ac;
-    margin-top: 1rem;
+.ProjectImage>img {
+    width: 40vw;
+    height: 50vh;
+    overflow: auto;
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.31);
+    border-radius: 1%;
+    object-fit: cover;
 }
 
-.cards {
+.Projectdetails {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    max-width: 500px;
+    margin-left: 2rem;
+    margin: 10px 0;
+    color: #ccd6f6;
 }
 
-.cards > div {
-    width: 100%;
-    max-width: 45rem;
-    padding: 1rem;
-    margin: 1rem;
+.feacture {
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+
 }
 
-.image > img {
-    width: 100%;
-    max-width: 40rem;
-    border-radius: 1rem;
-}
-
-.button > a {
-    color: #ffffff;
-    text-decoration: none;
+.feacture>div:nth-child(1) {
+    color: aqua;
     font-size: large;
+    letter-spacing: 1px;
+    word-spacing: 10px;
+    margin-left: auto;
 }
 
-button {
-    margin: 1rem;
-    padding: 10px 20px;
-}
-
-p {
-    padding: 1rem;
+.feacture>div:nth-child(2) {
     color: aliceblue;
-    word-spacing: 2px;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: large;
+    font-size: x-large;
+    margin-left: auto;
 }
 
-h1 {
-    color: #57cbff;
+.ProjectExplain {
+    padding: 10px;
+    width: 40vw;
+    height:auto;
+    margin-bottom: 20px;
+    font-size: 16px;
+    line-height: 2;
+    color: rgb(208, 209, 211);
+    box-shadow: 4px 4px 4px 4px rgba(1, 1, 1, 0.31);
+    background-color: #112240;
+    position: relative;
+    right: 5rem;
 }
 
-/* Media Queries for responsiveness */
-@media only screen and (min-width: 768px) {
+.Projectstuff {
+    display: flex;
+    margin-left: auto;
+    font-size: 18px;
+    color: aliceblue;
+
+}
+
+.Projectstuff div {
+    color: #ccd6f6;
+}
+
+.Projectexplore {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
    
-    
-    .title > div {
-        width: 50%;
-        max-width: 20rem;
+}
+
+.Projectexplore a {
+    color: #64ffda;
+    text-decoration: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+    border: #64ffda solid 1px;
+    padding: 10px 20px;
+    margin-left: 10px;
+    background-color: rgba(100, 255, 218, 0.1);
+}
+
+.Projectexplore a:hover {
+    color: white;
+    background-color: #64ffda;
+    border-color: #64ffda;
+}
+
+.Projectexplore a:active {
+    transform: scale(0.95);
+    transition: transform 0.1s ease;
+}
+
+@media (max-width: 1200px) {
+    .ProjectImage>img {
+        width: 50vw;
+        height: 40vh;
+    }
+
+    .Projectdetails {
+        max-width: 400px;
+    }
+
+
+}
+
+@media (max-width: 768px) {
+    .Projectcontainer {
+        flex-direction: column;
+        align-items: center;
+        margin: 10rem 0px;
+    }
+
+    .ProjectImage>img {
+        width: 70vw;
+        height: 35vh;
+    }
+
+    .Projectdetails {
+        width: 70vw;
         margin-left: 0;
+        text-align: center;
     }
-    .title {
-        display: flex;
-        flex-direction: row;
-       
-        padding: 2rem 0rem;
+
+    .ProjectExplain {
+        width: 70vw;
+        height: auto;
+
+        text-align: center;
     }
-    .cards > div {
-        width: 45%;
-        max-width: 45rem;
+
+    .feacture {
+        align-items: center;
+        position: relative;
+        bottom: 25rem;
+    }
+
+    .Projectstuff {
+        justify-content: center;
+    }
+
+    .Projectexplore {
+        justify-content: center;
     }
 }
 
+@media (max-width: 480px) {
+    .ProjectImage>img {
+        width: 90vw;
+        height: 30vh;
+    }
 
+    .Projectdetails {
+        width: 50vw;
+        margin: auto;
+
+    }
+
+    .ProjectExplain {
+        width: 90vw;
+        margin: 0;
+        height: auto;
+    }
+
+    .feacture {
+        font-size: 16px;
+        margin-bottom: 8px;
+
+    }
+
+    .Projectstuff {
+        font-size: 12px;
+        gap: 0.5rem;
+    }
+
+    .Projectexplore {
+        font-size: 12px;
+        gap: 0.5rem;
+    }
+}

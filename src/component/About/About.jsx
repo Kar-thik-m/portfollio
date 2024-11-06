@@ -7,7 +7,7 @@ const About = () => {
             <div className={Abstyle.content}>
                 <div className={Abstyle.name}>
                 <div>Hello!</div>
-                     I Am <b style={{ color: "rgb(126, 173, 252)" }}>KARTHIK</b>
+                     I Am <b style={{ color: "#ccd6f6" }}>KARTHIK</b>
                 </div>
                 <div>
                     I'm a <b style={{ color: "rgb(126, 173, 252)" }}>Full Stack Developer</b>
@@ -19,7 +19,7 @@ const About = () => {
                         and web applications.
                     </span>
                 </div>
-                <button className={Abstyle.button} ><a href="https://drive.google.com/file/d/1miSC0eRRirYXF39D41jQ2vMGSQbBGB33/view" target="_blank">Resume/cv</a></button>
+                <div className={Abstyle.button} ><a href="https://drive.google.com/file/d/1miSC0eRRirYXF39D41jQ2vMGSQbBGB33/view" target="_blank">Resume/cv</a></div>
             </div>
            
         </div>

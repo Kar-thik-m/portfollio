@@ -1,15 +1,17 @@
 import pin from "../../assets/pin.png"
 import makeup from "../../assets/makeup.png";
-import gym from "../../assets/gym.png";
+import social from "../../assets/socialapp.png";
 import ec from "../../assets/ec.png"
 import chatapp from "../../assets/chatapp.png"
 export const ProjectData = () => {
     return [
         {
             id: 1,
-            Projectname: "Pinterest",
-            use: "This project allows users to create an account, upload images, download images from others, comment on images, and leave reviews. Users can also follow other accounts.",
-            tools: "MongoDB, Express.js, React.js, Node.js",
+            Projectname: "Printerest",
+            use: `I built the printerest  website. This web application allows users to post images, download images, view images, and comment on posts, similar to the functionality of Pinterest. For the frontend, I used React, and for the backend, I used Node.js with Express.js. 
+            The database is MongoDB. I hosted this project on Netlify (frontend) and Render (backend).
+            `,
+            tools: "M E R N || cloudinary",
             url: "https://printerest-frontend.onrender.com",
             code1: "https://github.com/Kar-thik-m/Printerest/tree/main/backend",
             code2: "https://github.com/Kar-thik-m/Printerest/tree/main/frontend",
@@ -18,8 +20,8 @@ export const ProjectData = () => {
         {
             id: 2,
             Projectname: "ChatApp",
-            use: "Users can send and receive messages instantly in real-time, enhancing communication efficiency.",
-            tools: "React.js,Socket.IO ,express.js,mongodb database",
+            use: `I built a Talk_ti_me App using the MERN stack . This web application allows users to chat in real time, send messages, and share media, similar to popular messaging platforms. The frontend is built with React, the backend uses Node.js (Express.js), and data is stored in MongoDB. I hosted the project on Netlify for the frontend and Render for the backend.`,
+            tools: "M E R N || Socket.IO  || Cloudinary",
             url: "https://prismatic-torte-1811cd.netlify.app/",
             code1: "https://github.com/Kar-thik-m/chat-frontend",
             code2: "https://github.com/Kar-thik-m/chat-backend",
@@ -27,24 +29,28 @@ export const ProjectData = () => {
         },
         {
             id: 3,
+            Projectname: "SocialMedia",
+            use: `I built a Social Media App using the MERN stack (MongoDB, Express, React, Node.js). This web application allows users to create profiles, post updates, like and comment on posts, and follow other users, just like popular social media platforms. The frontend is built with React, while the backend uses Node.js with Express.js to handle server-side logic. MongoDB is used to store user profiles, posts, and interactions. The app is hosted on Netlify for 
+            the frontend and Render for the backend, providing fast and reliable performance.`,
+            tools: "M E R N || Socket.IO || Cloudinary",
+            url: "https://socialmedia-1-axpf.onrender.com/",
+            code1: "https://github.com/Kar-thik-m/SocialMedia/tree/main/socialmedia-frontend",
+            code2:"https://github.com/Kar-thik-m/SocialMedia/tree/main/socialmedia-backend",
+            image: social,
+        },
+        {
+            id: 4,
             Projectname: "Your-Shop",
-            use: "This project mini e-commerce ,build by MERN stack",
-            tools: "React.js,Node.js,MongoDb",
+            use: `I built a Your-Shop  using the MERN stack . This web application allows users to Search and order items, similar to popular E-Commerce platforms. The frontend is built with React, the backend uses Node.js (Express.js), and data is stored in MongoDB.
+             I hosted the project on Netlify for the frontend and Render for the backend.`,
+            tools: "M E R N || Bootstrap",
             url: "https://e-commerce-frontend-dbs3.onrender.com/",
             code1: "https://github.com/Kar-thik-m/e-commerce/tree/main/frontend",
             code2: "https://github.com/Kar-thik-m/e-commerce/tree/main/backend",
             image: ec,
         },
-        {
-            id: 3,
-            Projectname: "MakeUp",
-            use: "This project utilizes makeUP items and is built using the react.js, API handling.",
-            tools: "React.js, node.js,mongodb,",
-            url: "https://elaborate-froyo-d63c3b.netlify.app/",
-            code1: "https://github.com/Kar-thik-m/make-up",
-            image: makeup,
-        },
-        
+
+
 
 
 
