@@ -44,9 +44,9 @@ export const ProjectData = () => {
             use: `I built Your-Shop using the MERN stack. This web application allows users to search and order items, similar to popular E-Commerce platforms. The frontend is built with React, the backend uses Node.js (Express.js), and data is stored in MongoDB.
              I hosted the project on Netlify for the frontend and Render for the backend.`,
             tools: "MERN || Bootstrap",
-            url: "https://e-commerce-frontend-dbs3.onrender.com/",
-            code1: "https://github.com/Kar-thik-m/e-commerce/tree/main/frontend",
-            code2: "https://github.com/Kar-thik-m/e-commerce/tree/main/backend",
+            url: "https://yourshop01.netlify.app/",
+            code1: "https://github.com/Kar-thik-m/yourShop/tree/main/yourshop-backend",
+            code2: "https://github.com/Kar-thik-m/yourShop/tree/main/yourshop-frontend",
             image: ec,
         },
     ];
