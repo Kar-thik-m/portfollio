@@ -4,6 +4,7 @@
     background-color: rgba(10, 25, 47, 0.85);
     position: relative;
     animation: Zoomout 3s ease-in-out ;
+    background-image: url('../../assets/background.svg');
 }
 
 .button > a {

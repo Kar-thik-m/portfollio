@@ -15,6 +15,7 @@
 }
 .full{
     background-color: rgba(10, 25, 47, 0.85);
+   background-image: url("../../assets/background.svg");
     width: 100%;
     padding: 3rem 0rem;
     color: #ccd6f6;

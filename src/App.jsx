@@ -8,7 +8,7 @@ import Contact from './component/Contact/Contact'
 import Footer from './component/footer/footer'
 function App() {
   return(
-    <div>
+    <div className='whole'>
       <Nav />
       <About />
       <Skill />
