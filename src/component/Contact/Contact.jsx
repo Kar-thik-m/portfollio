@@ -43,8 +43,8 @@ const Contact = () => {
 
   return (
     <div>
-      <div className={contactstyle.title}>
-        <h2>Contact Me Here</h2>
+      <div className={contactstyle.title} id='contact'>
+        <h2>Contact / Hire me</h2>
       </div>
       <div className={contactstyle.portfoliocontact}>
         <form onSubmit={handleSubmit}>

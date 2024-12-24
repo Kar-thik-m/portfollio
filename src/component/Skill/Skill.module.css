@@ -42,42 +42,114 @@
   .skillname>div:nth-child(1){
     box-shadow: 8px 8px 8px rgb(240, 81, 24); 
     transition: box-shadow 0.3s ease;
+    animation: appearzoomin linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
   }
   .skillname>div:nth-child(2){
     box-shadow: 8px 8px 8px skyblue; 
     transition: box-shadow 0.3s ease;
+    animation: appearzoomin linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
   }
   .skillname>div:nth-child(3){
     box-shadow: 8px 8px 8px yellow; 
     transition: box-shadow 0.3s ease;
+    animation: appearzoomin linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
   }
   .skillname>div:nth-child(4){
     box-shadow: 8px 8px 8px skyblue; 
     transition: box-shadow 0.3s ease;
+    animation: appearzoomin linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
   }
   .skillname>div:nth-child(5){
     box-shadow: 8px 8px 8px rgb(38, 75, 38); 
     transition: box-shadow 0.3s ease;
+    animation: appearzoomin linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
   }
   .skillname>div:nth-child(6){
     box-shadow: 8px 8px 8px green; 
     transition: box-shadow 0.3s ease;
+    animation: appearzoomin linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
   }
   .skillname>div:nth-child(7){
     box-shadow: 8px 8px 8px rgb(78, 127, 160); 
     transition: box-shadow 0.3s ease;
+    animation: appearzoomin linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
   }
   .skillname>div:nth-child(8){
     box-shadow: 8px 8px 8px rgb(78, 82, 78); 
     transition: box-shadow 0.3s ease;
+    animation: appearzoomin linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
   }
   .skillname>div:nth-child(9){
     box-shadow: 8px 8px 8px rgb(255, 255, 255); 
     transition: box-shadow 0.3s ease;
+    animation: appearzoomin linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
   }
   .skillname>div:nth-child(10){
     box-shadow: 8px 8px 8px rgb(255, 255, 255); 
     transition: box-shadow 0.3s ease;
+    animation: appearzoomin linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+  }
+  .skillname>div:nth-child(11){
+    box-shadow: 8px 8px 8px rgb(255, 255, 255); 
+    transition: box-shadow 0.3s ease;
+    animation: appearzoomin linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+  }
+  .skillname>div:nth-child(12){
+    box-shadow: 8px 8px 8px rgb(255, 255, 255); 
+    transition: box-shadow 0.3s ease;
+    animation: appearzoomin linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+  }
+  .skillname>div:nth-child(13){
+    box-shadow: 8px 8px 8px rgb(255, 255, 255); 
+    transition: box-shadow 0.3s ease;
+    animation: appearzoomin linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+  }
+  .skillname>div:nth-child(14){
+    box-shadow: 8px 8px 8px rgb(255, 255, 255); 
+    transition: box-shadow 0.3s ease;
+    animation: appearzoomin linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+  }
+  .skillname>div:nth-child(15){
+    box-shadow: 8px 8px 8px rgb(255, 255, 255); 
+    transition: box-shadow 0.3s ease;
+    animation: appearzoomin linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+  }
+  .skillname>div:nth-child(16){
+    box-shadow: 8px 8px 8px rgb(255, 255, 255); 
+    transition: box-shadow 0.3s ease;
+    animation: appearzoomin linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
   }
 .skillname>div>span{
     padding: 10px 0px;
@@ -87,16 +159,16 @@ img{
     width: 7rem;
 }
 
-@media screen and (max-width: 653px) {
-  .title > div {
-    width: 50%;
-    max-width: 20rem;
-    margin-left: 0;
-}
-.title {
-    display: flex;
-    flex-direction: row;
-   
-    padding: 2rem 0rem;
-}
+@keyframes appearzoomin  {
+  from {
+    opacity: 0;
+    clip-path: inset(100% 100% 0 0); 
+    transform: translateY(-100%) scale(1.5); 
+  }
+
+  to {
+    opacity: 1;
+    clip-path: inset(0 0 0 0); 
+    transform: translateY(0) scale(1);
+  }
 }

@@ -1,46 +1,61 @@
-
-
 .foot {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-   gap: 2rem;
-    color: white;
-    padding: 3rem 0;
-  }
-  
-  .linkdin,
-  .email,
-  .phone,
-  .whatsapp,
-  .github {
-    display: flex;
-    align-items: center;
-  }
-  
-  .linkdin img,
-  .email img,
-  .phone img,
-  .whatsapp img,
-  .github img {
-   width: 3rem;
-    margin-right: 10px;
-  }
-  
-  .linkdin a,
-  .email a,
-  .whatsapp a,
-  .github a {
-    color: white;
-    text-decoration: none;
-  }
-  
-  .linkdin a:hover,
-  .email a:hover,
-  .whatsapp a:hover,
-  .github a:hover {
-    text-decoration: underline;
-  }
-  
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  color: white;
+  padding: 3rem 0;
+  animation: Zoomin linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 10%;
 
+}
+
+.linkdin,
+.email,
+.phone,
+.whatsapp,
+.github {
+  display: flex;
+  align-items: center;
+
+
+}
+
+.linkdin img,
+.email img,
+.phone img,
+.whatsapp img,
+.github img {
+  width: 3rem;
+  margin-right: 10px;
+ 
+}
+
+.linkdin a,
+.email a,
+.whatsapp a,
+.github a {
+  color: white;
+  text-decoration: none;
+}
+
+.linkdin a:hover,
+.email a:hover,
+.whatsapp a:hover,
+.github a:hover {
+  text-decoration: underline;
+}
+
+@keyframes Zoomin {
+  from {
+    opacity: 0;
+    transform:   translateX(-50%) scale(1.2) translateY(-50%);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0) translateX(0) scale(1);
+  }
+}
