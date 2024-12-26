@@ -25,8 +25,8 @@ const About = () => {
 
             </div>
             <div style={{ display: "flex", gap: "2rem",margin:"20px" }}>
-                <div className={Abstyle.button} ><a href="https://drive.google.com/file/d/1C4g-yUUNSQCX1ETDihmcCZqX-EODwMNX/view" target="_blank">Certificate</a></div>
-                <div className={Abstyle.button} ><a href="https://drive.google.com/file/d/1I8LVj8EcjAfQOZ-Lj9eUBk9XfMwG2WkT/view?usp=sharing" target="_blank">Resume/cv</a></div>
+                <div className={Abstyle.button} ><a href="https://drive.google.com/file/d/1qwV7u9HMnvOWVKHSIRHQ-t2MSFoBxKyk/view?usp=sharing" target="_blank">Certificate</a></div>
+                <div className={Abstyle.button} ><a href="https://drive.google.com/file/d/1qwV7u9HMnvOWVKHSIRHQ-t2MSFoBxKyk/view?pli=1" target="_blank">Resume/cv</a></div>
             </div>
         </>
     );
